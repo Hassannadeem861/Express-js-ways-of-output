@@ -1,0 +1,18 @@
+{
+  "name": "express-js-ways-of-output",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.mjs",
+    "start": "node server.mjs"
+  },
+  "author": "Hassan-Nadeem",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^4.0.2"
+  }
+}

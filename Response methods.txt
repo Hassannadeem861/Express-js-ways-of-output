@@ -1,0 +1,13 @@
+
+Response object (jo ke "res" ke naam se hai) ke methods jo neeche diye gaye table mein hain, client ko ek response bhej sakte hain aur request-response cycle ko khatam kar sakte hain. Agar koi bhi route handler se in methods mein se koi call nahi hoti, to client ki request adhoori ho jayegi.
+
+Method Tafseel
+res.download() Ek file ko download karne ke liye prompt karta hai.
+res.end() Response process ko khatam karta hai.
+res.json() JSON response bhejta hai.
+res.jsonp() JSON response JSONP support ke saath bhejta hai.
+res.redirect() Ek request ko redirect karta hai.
+res.render() Ek view template ko render karta hai.
+res.send() Mukhtalif types ke response ko bhejta hai.
+res.sendFile() Ek file ko octet stream ke taur par bhejta hai.
+res.sendStatus() Response status code ko set karta hai aur uski string representation ko response body ke roop mein bhejta hai.

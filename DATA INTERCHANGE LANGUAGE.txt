@@ -1,0 +1,18 @@
+
+                                                            DATA INTERCHANGE LANGUAGE:
+
+"Data interchange language" ek aisa concept hai jahan data ko ek language ya format se dusre language ya format mein tabdeel kia jata hai, taaki alag alag computer systems ya apps data ko achi tarah se samajh sake aur use kar sake. Is concept mein, kuch languages ya formats hote hain jo data ko ek tareeke se represent karte hain taki data ka matlab aur structure saaf ho. Kuch important data interchange languages aur formats hain:
+
+JSON (JavaScript Object Notation): JSON ek asaan format hai jisme data ko readable tareeke se likha jata hai. Isme data ko "key-value pairs" mein rakha jata hai, jisse data ko samajhna aasan ho jata hai. Web apps mein data exchange ke liye commonly use hota hai.
+
+XML (eXtensible Markup Language): XML ek language hai jisme data ko structured tareeke se represent kiya jata hai. Data ko "tags" mein wrap kiya jata hai, jisse uska structure saaf dikhata hai. Web services aur data storage mein use hota hai.
+
+CSV (Comma-Separated Values): CSV ek simple text format hai jisme data ko commas se separate kiya jata hai. Yeh table ki tarah data ko store karta hai jisme rows aur columns hoti hain. Database se data export/import karne aur spreadsheet programs mein use hota hai.
+
+YAML (YAML Ain't Markup Language): YAML ek asaan language hai jisse data ko represent kia jata hai. Iska main focus configuration data aur data exchange par hota hai. Iska format indentation se define hota hai.
+
+Protocol Buffers (protobuf): Protocol Buffers ek binary format hai jo data exchange ke liye use hota hai. Yeh language-independent hai aur high-performance data interchange ke liye istemal hota hai.
+
+MsgPack: MsgPack bhi binary format hai, jisse data exchange mein use hota hai. Yeh JSON aur XML se chota aur high-performance hai.
+
+In languages aur formats ki madad se, hum data ko alag alag systems mein easily share aur exchange kar sakte hain. Har format apne tareeke se data ko represent karta hai, lekin unka maqsad ek hi hota hai - data ko dusre systems ya apps ke liye accessible aur understandable banana.
